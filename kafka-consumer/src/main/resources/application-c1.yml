@@ -1,0 +1,8 @@
+server:
+  port: 8001
+
+
+kafka:
+  consumer:
+    bootstrap-servers: 10.211.55.14:9092,10.211.55.7:9092,10.211.55.6:9092
+    topic: my-topic

@@ -13,5 +13,6 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "kafka.consumer")
 public class KafkaProperties {
-	private String bootstrapServer;
+	private String bootstrapServers;
+	private String topic;
 }

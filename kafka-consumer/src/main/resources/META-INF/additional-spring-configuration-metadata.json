@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "kakfa.consumer.bootstrapServers",
+      "type": "java.lang.String",
+      "description": "Description for kafka.consumer.bootstrapServers."
+  }
+] }

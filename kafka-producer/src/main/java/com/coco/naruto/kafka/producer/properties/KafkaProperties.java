@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author chuanzhang
- * @description TODO
+ * @description kafka 相关配置
  * @date 2021/2/5
  */
 @Data
@@ -16,4 +16,5 @@ public class KafkaProperties {
 
 	private String bootstrapServers;
 
+	private String topic;
 }
