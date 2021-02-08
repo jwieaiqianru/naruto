@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * @author chuanzhang
- * @description TODO
+ * @description  kafka 自定义分区
  * @date 2021/2/6
  */
 public class KafkaCustomPartitioner  implements Partitioner {
