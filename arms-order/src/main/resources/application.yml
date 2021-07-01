@@ -1,0 +1,21 @@
+
+server:
+  port: 8080
+spring:
+  application:
+    name: arms-order
+  profiles:
+    active: default
+  datasource:
+    hikari:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/ioe?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
+      username: root
+      password: ABC7758521abc
+    url: jdbc:mysql://localhost:3306/ioe?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
+
+
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
